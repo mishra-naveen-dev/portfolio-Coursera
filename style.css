@@ -47,7 +47,7 @@ main {
 .promo-banner {
   text-align: center;
   padding: 50px 20px; /* Adjust padding */
-  background: url("3.jpg");
+  background: url("images/3.jpg");
   background-size: cover; /* Ensure the background covers the entire section */
   color: #fff;
   position: relative; /* Positioning for absolute elements */
