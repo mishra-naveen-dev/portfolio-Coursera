@@ -1,0 +1,192 @@
+/* Reset and basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f2f2f2;
+  margin: 0; /* Remove default body margin */
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 80px; /* Adjust logo size */
+  height: auto; /* Maintain aspect ratio */
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.promo-banner {
+  text-align: center;
+  padding: 50px 20px; /* Adjust padding */
+  background: url("images/3.jpg");
+  background-size: cover; /* Ensure the background covers the entire section */
+  color: #fff;
+  position: relative; /* Positioning for absolute elements */
+}
+
+.promo-banner h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.promo-banner p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.promo-image {
+  max-width: 100%; /* Ensure image responsiveness */
+  margin: 0 auto; /* Center align the image */
+  overflow: hidden;
+}
+
+.promo-image img {
+  width: 100%;
+  display: block;
+  transition: transform 0.3s ease-in-out; /* Transition for transform property */
+}
+
+.promo-image img:hover {
+  transform: scale(1.1); /* Scale the image on hover */
+}
+
+.tech-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.tech-icons i {
+  font-size: 2rem; /* Adjust icon size */
+  margin: 0 20px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.tech-icons i:hover {
+  opacity: 1;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: calc(33.33% - 20px); /* Adjust width for responsiveness */
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out; /* Smooth shadow transition */
+}
+
+.project:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease-in-out; /* Smooth image zoom transition */
+}
+
+.project:hover img {
+  transform: scale(1.1); /* Zoom in on hover */
+}
+
+.project-info {
+  padding: 10px;
+  text-align: center;
+}
+
+.project-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.project-info p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button a {
+  display: inline-block;
+  padding: 12px 40px; /* Increase button padding */
+  background-color: #9ea0a0;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #92eff6;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease; /* Smooth background color transition */
+}
+
+button a:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+  color: #fff; /* Darker shade on hover */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  font-size: 1.5rem;
+}
+
+.copywriting a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.copywriting a:hover {
+  text-decoration: underline;
+}
