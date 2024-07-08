@@ -47,7 +47,7 @@ main {
 .promo-banner {
   text-align: center;
   padding: 50px 20px; /* Adjust padding */
-  background: url("images/3.jpg");
+  background: url("3.jpg");
   background-size: cover; /* Ensure the background covers the entire section */
   color: #fff;
   position: relative; /* Positioning for absolute elements */
@@ -144,6 +144,78 @@ main {
 .project-info p {
   font-size: 1rem;
   margin-bottom: 15px;
+}
+
+.about {
+  background-color: #f9f9f9;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact {
+  background-color: #e0e0e0;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form form {
+  display: grid;
+  gap: 20px;
+}
+
+.contact-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  margin-top: 20px;
+  padding: 12px 40px; /* Increase button padding */
+  background-color: #9ea0a0;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #92eff6;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease; /* Smooth background color transition */
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+  color: #fff; /* Darker shade on hover */
 }
 
 button {
